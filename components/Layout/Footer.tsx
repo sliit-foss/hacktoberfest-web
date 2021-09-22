@@ -7,7 +7,7 @@ const Footer = (): JSX.Element => {
       <div className="bg-peach-light h-44 w-full"></div>
       <img
         src="/H-icon-dark.png"
-        alt="groupImage"
+        alt="icon"
         className="w-20 h-20 lg:w-32 lg:h-32 object-cover absolute z-50 top-8.6rem lg:top-28"
       />
       <div className="relative w-full">

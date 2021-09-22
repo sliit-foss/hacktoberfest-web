@@ -38,6 +38,8 @@ module.exports = {
         "16%": "16%",
         "18%": "18%",
         "20%": "20%",
+        "28%": "28%",
+        "34%": "34%",
         "48%": "48%",
         "49%": "49%",
         "70%": "70%",
@@ -49,6 +51,7 @@ module.exports = {
         "extra-loose": "2.5",
       },
       borderRadius: {
+        "3xl+": "3rem",
         high_curve: "10rem",
       },
       borderWidth: {
@@ -57,6 +60,9 @@ module.exports = {
       fontFamily: {
         genera: ['"genera"'],
       },
+      scale: {
+       '101': '1.01',
+      }
     },
   },
   variants: {

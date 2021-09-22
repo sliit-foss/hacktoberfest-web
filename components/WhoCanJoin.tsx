@@ -20,20 +20,22 @@ const WhoCanJoin = (): JSX.Element => {
       <div className="w-full lg:w-1/2 bg-red-dark flex flex-row justify-center items-center">
         <img
           src="/Hacktoberfest_flourish_year.png"
-          alt="groupImage"
+          alt="flourish"
           className="h-28 lg:h-36 lg:w-auto object-fit absolute z-50 top-30"
+          data-aos="fade-right"
         />
       </div>
       <img
           src="/flourish.png"
-          alt="groupImage"
+          alt="flourish"
           className="lg:w-auto object-fit absolute right-0 bottom-0 z-50 hidden lg:flex"
+          data-aos="fade-left"
         />
       <div className="w-full lg:w-1/2 flex flex-col justify-start items-start sticky z-10 mb-44">
-        <div className="w-full  bg-green-lighter pt-24 pb-16 px-10 lg:px-20 text-center text-4xl">
+        <div className="w-full  bg-green-lighter pt-24 pb-16 px-10 lg:px-20 text-center text-4xl" data-aos="fade-right">
           Who can Join?
         </div>
-        <div className="w-full  bg-green-darker pt-24 pb-24 px-10 lg:px-20 text-white">
+        <div className="w-full  bg-green-darker pt-24 pb-24 px-10 lg:px-20 text-white" data-aos="fade-right">
           <div className="text-center lg:text-left text-4xl break-all mb-8">
             Contributors
           </div>
@@ -43,7 +45,7 @@ const WhoCanJoin = (): JSX.Element => {
             All backgrounds and skill levels are encouraged to participate.
           </div>
         </div>
-        <div className="w-full bg-red-dark pt-24 pb-24 px-10 lg:px-20 text-white">
+        <div className="w-full bg-red-dark pt-24 pb-24 px-10 lg:px-20 text-white" data-aos="fade-right">
           <div className="text-center lg:text-left text-4xl break-all mb-8">
             Maintainers
           </div>
@@ -53,7 +55,7 @@ const WhoCanJoin = (): JSX.Element => {
             Hacktoberfest.
           </div>
         </div>
-        <div className="w-full bg-green-dark pt-24 pb-24 px-10 lg:px-20 text-white">
+        <div className="w-full bg-green-dark pt-24 pb-24 px-10 lg:px-20 text-white" data-aos="fade-right">
           <div className="text-center lg:text-left text-4xl break-all mb-8">
             Companies
           </div>
@@ -62,7 +64,7 @@ const WhoCanJoin = (): JSX.Element => {
             organize community events, and engage internal employees.
           </div>
         </div>
-        <div className="w-full sticky top-0 ">
+        <div className="w-full sticky top-0" data-aos="fade-right">
           {lastCardContent("bg-green-light", "z-40")}
           <div className="w-3/4 h-96 bg-peach-light absolute left-0 top-0 mt-2 ml-2 z-30 hidden lg:flex"></div>
           <div className="w-full h-1/4 bg-peach-light absolute left-8 top-0 mt-2 ml-2 z-30 hidden lg:flex"></div>
