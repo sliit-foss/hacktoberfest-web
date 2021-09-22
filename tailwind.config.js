@@ -8,6 +8,7 @@ module.exports = {
           lighter: "#dbe7d9",
           light: "#91a88c",
           dark: "#4a584b",
+          darker: "#2b3632",
         },
         red: {
           light: "#F74700",
@@ -18,7 +19,7 @@ module.exports = {
         },
       },
       width: {
-        "25w": "25vw",
+        "25vw": "25vw",
         "81%": "81%",
         "97%": "97%",
       },
@@ -30,6 +31,7 @@ module.exports = {
         "28vw": "28vw",
       },
       inset: {
+        "8.6rem": "8.6rem",
         "5%": "5%",
         "7%": "7%",
         "10%": "10%",
