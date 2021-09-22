@@ -23,7 +23,7 @@ const Introduction = (): JSX.Element => {
           <img
             src="/groupImage.jpeg"
             alt="groupImage"
-            className="w-full object-cover rounded-xl flex lg:hidden mb-20 shadow-lg filter hover:brightness-125 transition-all ease-out duration-200"
+            className="w-full object-cover rounded-xl flex lg:hidden mb-20 shadow-lg filter hover:brightness-110 transition-all ease-out duration-500"
           />
         </div>
       </div>
@@ -31,7 +31,7 @@ const Introduction = (): JSX.Element => {
         <img
           src="/groupImage.jpeg"
           alt="groupImage"
-          className="w-1/2 h-25vw object-cover rounded-2xl rounded-bl-high_curve"
+          className="w-1/2 h-25vw object-cover rounded-2xl rounded-bl-high_curve filter hover:brightness-110 transition-all ease-out duration-500"
         />
       </div>
       <div className="absolute left-49% bottom-18% 2xl:bottom-7% w-3/4 z-0 hidden lg:flex">

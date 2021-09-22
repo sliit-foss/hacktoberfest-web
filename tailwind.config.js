@@ -20,6 +20,7 @@ module.exports = {
       width: {
         "25w": "25vw",
         "81%": "81%",
+        "97%": "97%",
       },
       height: {
         "85vh": "85vh",
@@ -38,6 +39,9 @@ module.exports = {
         "48%": "48%",
         "49%": "49%",
         "70%": "70%",
+      },
+      padding: {
+        "10%": "10%",
       },
       lineHeight: {
         "extra-loose": "2.5",
