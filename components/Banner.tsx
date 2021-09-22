@@ -1,5 +1,4 @@
 import Image from "next/image";
-import BG from "../public/banner-blank-light.png";
 import Logo from "../public/Hacktoberfest_final_2color-06 copy.png";
 
 const Banner = (): JSX.Element => {

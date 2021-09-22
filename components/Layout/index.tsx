@@ -31,7 +31,7 @@ const Layout = ({
         <meta name="twitter:image" content={image || "/favicon.png"} />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-      <main className="bg-bgWhite text-textBlack font-inter min-h-screen overflow-x-hidden">
+      <main className="bg-bgWhite text-textBlack font-genera min-h-screen overflow-x-hidden" >
         {children}
       </main>
     </>
