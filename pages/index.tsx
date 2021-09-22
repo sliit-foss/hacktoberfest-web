@@ -4,6 +4,7 @@ import Introduction from "../components/Introduction";
 import Layout from "../components/Layout";
 import Footer from "../components/Layout/Footer";
 import Navbar from "../components/Layout/Navbar";
+import WhoCanJoin from "../components/WhoCanJoin";
 
 const HomePage = () => {
   return (
@@ -11,6 +12,7 @@ const HomePage = () => {
       <Navbar />
       <Banner />
       <Introduction />
+      <WhoCanJoin/>
       <Connect/>
       <Footer />
     </Layout>

@@ -1,6 +1,5 @@
 import Wave from "react-wavify";
 import { FacebookShareButton, TwitterShareButton } from "react-share";
-import HIcon from "../../../public/H-icon-dark.png";
 
 const Footer = (): JSX.Element => {
   return (

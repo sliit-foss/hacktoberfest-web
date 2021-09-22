@@ -29,6 +29,13 @@ html::-webkit-scrollbar-thumb:hover {
 
 @font-face {
   font-family: genera;
+  src: url('../fonts/Genera/light.ttf');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: genera;
   src: url('../fonts/Genera/semibold.ttf');
+  font-weight: 600;
 }
 
