@@ -31,7 +31,7 @@ const Introduction = (): JSX.Element => {
           </div>
           <div data-aos="fade-left">
             <img
-              src="/groupImage.jpeg"
+              src="/hacktoberfest-web/groupImage.jpeg"
               alt="groupImage"
               className="w-full object-cover rounded-xl flex lg:hidden mb-20 shadow-lg filter hover:brightness-110 transition-all ease-out duration-500"
             />

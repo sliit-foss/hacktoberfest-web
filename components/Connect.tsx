@@ -11,7 +11,7 @@ const Connect = (): JSX.Element => {
           <div
             className="py-12 px-10 mb-24 w-1/2 flex justify-center items-center bg-green-lighter hover:bg-green-light text-gray-800 hover:text-white text-2xl text-center tracking-wide rounded-xl transition ease-in duration-200 bg-cover bg-center"
             style={{
-              backgroundImage: "url('/buttonBG.png')",
+              backgroundImage: "url('/hacktoberfest-web/buttonBG.png')",
             }}
           >
             View Repositories
