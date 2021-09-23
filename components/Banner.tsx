@@ -2,11 +2,10 @@ const Banner = (): JSX.Element => {
   return (
     <div className="flex flex-col justify-center items-center">
       <div
-        className="h-85vh lg:h-screen w-screen bg-center bg-cover lg:bg-contain"
+        className="h-85vh lg:h-screen w-screen bg-center bg-cover"
         style={{
           backgroundImage: "url('/hacktoberfest-web/banner-blank-light.png')",
           backgroundRepeat: "repeat-y",
-          backgroundSize: "cover",
         }}
       >
       </div>
