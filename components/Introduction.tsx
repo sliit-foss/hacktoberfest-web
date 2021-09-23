@@ -41,7 +41,7 @@ const Introduction = (): JSX.Element => {
       <div className="absolute left-1/2 bottom-20% 2xl:bottom-10% w-3/4 z-30 hidden lg:flex">
         <div className="w-1/2 h-25vw" data-aos="fade-left">
           <img
-            src="/groupImage.jpeg"
+            src="/hacktoberfest-web/groupImage.jpeg"
             alt="groupImage"
             className="w-full h-full object-cover rounded-2xl rounded-bl-high_curve filter hover:brightness-110 transition-all ease-out duration-500"
           />
