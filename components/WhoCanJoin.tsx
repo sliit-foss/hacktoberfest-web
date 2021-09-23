@@ -19,14 +19,14 @@ const WhoCanJoin = (): JSX.Element => {
       <div className="bg-peach-light h-44 w-full"></div>
       <div className="w-full lg:w-1/2 bg-red-dark flex flex-row justify-center items-center">
         <img
-          src="/Hacktoberfest_flourish_year.png"
+          src="/hacktoberfest-web/Hacktoberfest_flourish_year.png"
           alt="flourish"
           className="h-28 lg:h-36 lg:w-auto object-fit absolute z-50 top-30"
           data-aos="fade-right"
         />
       </div>
       <img
-          src="/flourish.png"
+          src="/hacktoberfest-web/flourish.png"
           alt="flourish"
           className="lg:w-auto object-fit absolute right-0 bottom-0 z-50 hidden lg:flex"
           data-aos="fade-left"

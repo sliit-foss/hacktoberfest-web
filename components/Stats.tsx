@@ -4,7 +4,7 @@ const Stats = (): JSX.Element => {
   return (
     <div className="w-full flex flex-col justify-start items-start bg-peach-light">
       <img
-        src="/flourish_rotated.png"
+        src="/hacktoberfest-web/flourish_rotated.png"
         alt="flourish"
         className="w-10/12 md:w-8/12 lg:w-5/12 object-fit"
         data-aos="fade-right"
@@ -18,7 +18,7 @@ const Stats = (): JSX.Element => {
             Global Stats for Hacktoberfest 2020
           </div>
           <img
-            src="/branch.png"
+            src="/hacktoberfest-web/branch.png"
             alt="branch"
             className="w-10/12 md:w-8/12 lg:w-5/12 object-fit"
             data-aos="fade"
