@@ -5,4 +5,7 @@ module.exports = {
     PROJECT_ROOT: __dirname,
   },
   basePath: '/hacktoberfest-web',
+  images: {
+    path: '/hacktoberfest-web/_next/image',
+  }
 };
