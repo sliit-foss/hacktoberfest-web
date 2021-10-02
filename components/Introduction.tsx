@@ -7,7 +7,7 @@ const Introduction = (): JSX.Element => {
             className="text-5xl lg:text-6xl font-extrabold mt-40 mb-20 text-center lg:text-left break-all"
             data-aos="fade-right"
           >
-            What is Hacktoberfest?
+            What is Open Hack Day?
           </div>
           <div
             className="w-full lg:w-5/12 leading-extra-loose text-center lg:text-left mb-16"
