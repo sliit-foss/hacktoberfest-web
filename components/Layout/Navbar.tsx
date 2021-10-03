@@ -11,8 +11,8 @@ interface CountdownRenderProps {
 const Navbar = (): JSX.Element => {
   const Completionist = () => (
     <div>
-      <span className="w-full flex justify-center px-10 text-2xl font-bold text-white text-center animate-pulse">
-        Hacktoberfest is Happening Now !
+      <span className="w-full flex justify-center px-10 py-4 text-2xl font-bold text-white text-center animate-pulse">
+        Hacktoberfest Is Here !
       </span>
     </div>
   );
