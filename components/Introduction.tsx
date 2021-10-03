@@ -2,18 +2,18 @@ const Introduction = (): JSX.Element => {
   return (
     <div className="relative">
       <div className="w-full flex flex-col justify-center items-center bg-green-lighter relative z-30">
-        <div className="w-3/4">
+        <div className="w-10/12">
           <div
             className="text-5xl lg:text-6xl font-extrabold mt-40 mb-20 text-center lg:text-left break-all"
             data-aos="fade-right"
           >
-            What is Hacktoberfest?
+            What is Open Hack Day?
           </div>
           <div
             className="w-full lg:w-5/12 leading-extra-loose text-center lg:text-left mb-16"
             data-aos="fade-right"
           >
-            Hosted by DigitalOcean for the 8th year in a row, Hacktoberfest
+            Hosted for the 4th year in a row, Open Hack Day
             encourages participation in giving back to the open source community
             by completing pull requests, participating in events, and donating
             to open source projects.
@@ -21,7 +21,7 @@ const Introduction = (): JSX.Element => {
         </div>
       </div>
       <div className="w-full flex flex-col justify-center items-center bg-peach-light ">
-        <div className="w-3/4">
+        <div className="w-10/12">
           <div
             className="w-full lg:w-5/12 leading-extra-loose text-center lg:text-left text-red-dark mt-16 mb-14 lg:mb-52"
             data-aos="fade-right"
@@ -31,17 +31,17 @@ const Introduction = (): JSX.Element => {
           </div>
           <div data-aos="fade-left">
             <img
-              src="/hacktoberfest-web/groupImage.jpeg"
+              src="/hacktoberfest-web/2020/groupImage.jpg"
               alt="groupImage"
-              className="w-full object-cover rounded-xl flex lg:hidden mb-20 shadow-lg filter hover:brightness-110 transition-all ease-out duration-500"
+              className="w-full h-25vh object-cover rounded-xl flex lg:hidden mb-20 shadow-lg filter hover:brightness-110 transition-all ease-out duration-500"
             />
           </div>
         </div>
       </div>
-      <div className="absolute left-1/2 bottom-20% 2xl:bottom-10% w-3/4 z-30 hidden lg:flex">
+      <div className="absolute left-1/2 bottom-20% 2xl:bottom-10% w-10/12 z-30 hidden lg:flex">
         <div className="w-1/2 h-25vw" data-aos="fade-left">
           <img
-            src="/hacktoberfest-web/groupImage.jpeg"
+            src="/hacktoberfest-web/2020/groupImage.jpg"
             alt="groupImage"
             className="w-full h-full object-cover rounded-2xl rounded-bl-high_curve filter hover:brightness-110 transition-all ease-out duration-500"
           />
