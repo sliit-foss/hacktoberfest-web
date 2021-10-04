@@ -13,7 +13,7 @@ const Banner = (): JSX.Element => {
       <div className="h-screen flex justify-center items-center absolute left-0 top-0">
         <div className="w-11/12 sm:w-3/4 lg:w-1/2">
           <div className="text-5xl lg:text-7xl font-extrabold mt-0 lg:mt-12 px-7 text-center text-red-light ">
-            Open Hack Day Sri Lanka
+            Open Hack Day <br/> Sri Lanka
           </div>
           <img
             src="/hacktoberfest-web/Hacktoberfest logo.png"
