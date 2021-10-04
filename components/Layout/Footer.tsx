@@ -1,5 +1,4 @@
 import Wave from "react-wavify";
-import { FacebookShareButton, TwitterShareButton } from "react-share";
 
 const Footer = (): JSX.Element => {
   return (
@@ -59,29 +58,25 @@ const Footer = (): JSX.Element => {
             </div>
             <div className="w-full lg:w-1/4 py-10 pt-5 lg:py-0 lg:pt-12 text-center lg:text-left flex flex-col justify-start items-center lg:items-start">
               <div className="w-full text-xl font-bold mb-5 text-red-dark">
-                SHARE
+                FIND US
               </div>
               <ul>
                 <li className="pt-0 pb-1">
-                  <TwitterShareButton
-                    url={"https://twitter.com/gcsrilanka"}
-                    title="Hacktoberfest 2021"
+                  <a
+                    href={"https://twitter.com/gcsrilanka"}
+
                   >
                     <div className="hover:text-red-dark transition ease-in duration-200">
                       Twitter
                     </div>
-                  </TwitterShareButton>
+                  </a>
                 </li>
                 <li className="pt-1 pb-1">
-                  <FacebookShareButton
-                    title="Hacktoberfest 2021"
-                    url={"https://facebook.com/openhackday"}
-                    hashtag="#OSS #SLIIT #SL"
-                  >
+                  <a href={"https://facebook.com/openhackday"} >
                     <div className="hover:text-red-dark transition ease-in duration-200">
                       Facebook
                     </div>
-                  </FacebookShareButton>
+                  </a>
                 </li>
               </ul>
             </div>
