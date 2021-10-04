@@ -64,7 +64,7 @@ const Footer = (): JSX.Element => {
               <ul>
                 <li className="pt-0 pb-1">
                   <TwitterShareButton
-                    url={"https://githubexperts-lk.github.io/hacktoberfest-web/"}
+                    url={"https://twitter.com/gcsrilanka"}
                     title="Hacktoberfest 2021"
                   >
                     <div className="hover:text-red-dark transition ease-in duration-200">
@@ -75,7 +75,7 @@ const Footer = (): JSX.Element => {
                 <li className="pt-1 pb-1">
                   <FacebookShareButton
                     title="Hacktoberfest 2021"
-                    url={"https://githubexperts-lk.github.io/hacktoberfest-web/"}
+                    url={"https://facebook.com/openhackday"}
                     hashtag="#OSS #SLIIT #SL"
                   >
                     <div className="hover:text-red-dark transition ease-in duration-200">
