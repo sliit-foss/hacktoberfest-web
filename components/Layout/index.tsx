@@ -23,7 +23,7 @@ const Layout = ({
         />
         <meta name="image" content={image || "/hacktoberfest-web/favicon.png"} />
         <meta property="og:title" content={title || "Hacktoberfest 2021"} />
-        <meta property="og:description" content="description goes here" />
+        <meta property="og:description" content="Open Hack Day is Sri Lanka's official Hacktoberfest event, organized by GitHub Campus Experts of Sri Lanka in collaboration with Open Source Communities in Sri Lanka." />
         <meta property="og:image" content={image || "https://raw.githubusercontent.com/GitHubExperts-LK/My-Site/master/SourceCode/open-hack-day.png"} />
         <meta name="twitter:creator" content="@fosssliit" />
         <meta name="twitter:title" content={title || "Hacktoberfest 2021"} />
